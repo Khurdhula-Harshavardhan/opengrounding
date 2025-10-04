@@ -3,8 +3,7 @@
   "main": "src/worker.js",
   "compatibility_date": "2025-10-04",
 
-  // Attach your domain as a Custom Domain for this Worker:
   "routes": [
-    { "pattern": "app.yourdomain.com", "custom_domain": true }
+    { "pattern": "app.opengrounding.com", "custom_domain": true }
   ]
 }
