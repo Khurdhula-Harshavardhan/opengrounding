@@ -1,7 +1,7 @@
 export default {
   async fetch(request) {
     // 👇 your temporary Gradio host (no protocol)
-    const UPSTREAM_HOST = "0cc2ec914cc054d300.gradio.live";
+    const UPSTREAM_HOST = "94d77cee1c8dd786db.gradio.live";
 
     const inURL = new URL(request.url);
     const outURL = new URL(request.url);
